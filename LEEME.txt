@@ -1,4 +1,4 @@
 CODE STUDIO - Página web
 1. Abre index.html en tu navegador para verla.
-2. Cambia tu número de WhatsApp en js/main.js (línea 2) y en index.html (sección Contacto).
+2. El número de WhatsApp (+51 962 029 292) y el mensaje se configuran en js/main.js (líneas 2 y 3).
 3. Para publicarla gratis: sube la carpeta a Vercel o Netlify (arrastrar y soltar).

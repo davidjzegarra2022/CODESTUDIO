@@ -4,301 +4,281 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Code Studio | Páginas Web y Aplicaciones Corporativas</title>
-<meta name="description" content="Code Studio — Creación de páginas web y aplicaciones corporativas de alta calidad para empresas y negocios. Páginas web desde S/150.">
+<meta name="description" content="Code Studio — Páginas web y aplicaciones corporativas de alta calidad para empresas y negocios. Desde S/150.">
+<meta name="theme-color" content="#fbfbfd">
 <link rel="icon" href="img/logo-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
+<div class="progress" id="progress"></div>
+
 <!-- ===== NAV ===== -->
 <header class="nav" id="nav">
   <div class="container nav-inner">
-    <a href="#inicio" class="brand"><img src="img/logo-icon.png" alt="Code Studio"><span>Code<b>Studio</b></span></a>
+    <a href="#inicio" class="brand"><img src="img/logo-icon.png" alt="">Code Studio</a>
     <nav class="menu" id="menu">
       <a href="#servicios">Servicios</a>
       <a href="#proceso">Proceso</a>
       <a href="#planes">Planes</a>
-      <a href="#portafolio">Portafolio</a>
+      <a href="#proyectos">Proyectos</a>
       <a href="#faq">FAQ</a>
-      <a href="#contacto" class="btn btn-sm">Cotizar ahora</a>
+      <a data-wa class="btn btn-sm">Cotizar</a>
     </nav>
-    <button class="burger" id="burger" aria-label="Menú"><span></span><span></span><span></span></button>
+    <button class="burger" id="burger" aria-label="Abrir menú"><span></span><span></span></button>
   </div>
 </header>
 
+<main>
+
 <!-- ===== HERO ===== -->
 <section class="hero" id="inicio">
-  <div class="grid-bg"></div>
-  <div class="container hero-inner">
-    <div class="hero-text reveal">
-      <span class="pill">🚀 Global Digital Solutions</span>
-      <h1>Páginas web y apps <span class="grad">corporativas</span> que hacen crecer tu negocio</h1>
-      <p>Diseñamos y desarrollamos sitios web, tiendas online y aplicaciones de alta calidad para empresas y emprendedores. Rápidas, seguras y listas para vender.</p>
-      <div class="hero-cta">
-        <a href="#planes" class="btn">Ver planes desde S/150</a>
-        <a href="#contacto" class="btn btn-ghost">Solicitar cotización</a>
-      </div>
-      <ul class="hero-checks">
-        <li>✔ Diseño 100% adaptable a celular</li>
-        <li>✔ Botón de WhatsApp integrado</li>
-        <li>✔ Entrega rápida</li>
-      </ul>
+  <div class="aurora" aria-hidden="true"><i class="a1"></i><i class="a2"></i><i class="a3"></i></div>
+  <div class="hero-inner" id="heroInner">
+    <img class="hero-logo" src="img/logo-icon.png" alt="Code Studio">
+    <p class="eyebrow">Code Studio · Web &amp; App Creation</p>
+    <h1 class="split" id="heroTitle">Tu negocio.<br><span class="grad">En línea.</span></h1>
+    <p class="lead">Páginas web y aplicaciones corporativas de alta calidad, diseñadas para empresas y negocios que quieren crecer.</p>
+    <div class="ctas">
+      <a data-wa class="btn">Digitalizar mi negocio</a>
+      <a href="#planes" class="link">Ver planes desde S/150 <span>›</span></a>
     </div>
-    <div class="hero-visual reveal">
-      <div class="mock-browser">
-        <div class="mb-bar"><i></i><i></i><i></i><span>tuempresa.com</span></div>
-        <div class="mb-body">
-          <div class="mb-nav"><b></b><span></span><span></span><span></span></div>
-          <div class="mb-hero"><div><b></b><span></span><span class="short"></span><em></em></div><div class="mb-img"></div></div>
-          <div class="mb-cards"><div></div><div></div><div></div></div>
-        </div>
-      </div>
-      <div class="mock-phone">
-        <div class="mp-notch"></div>
-        <div class="mp-head"></div>
-        <div class="mp-line"></div><div class="mp-line s"></div>
-        <div class="mp-card"></div><div class="mp-card"></div>
-        <div class="mp-btn"></div>
-      </div>
-      <div class="float-badge fb1"><strong>+98%</strong><small>Velocidad Google</small></div>
-      <div class="float-badge fb2"><strong>24/7</strong><small>Tu negocio en línea</small></div>
-    </div>
+  </div>
+  <a href="#intro" class="scroll-hint" aria-label="Bajar"><span></span></a>
+</section>
+
+<!-- ===== SCRUB TEXT ===== -->
+<section class="scrub dark" id="intro">
+  <div class="scrub-sticky">
+    <p class="scrub-text" id="scrubText">Diseñamos páginas web y aplicaciones que se ven increíbles, cargan al instante y convierten visitas en clientes. Desde el celular de tu cliente hasta la pantalla de tu empresa. Simple. Rápido. Profesional.</p>
   </div>
 </section>
 
 <!-- ===== STATS ===== -->
-<section class="stats">
+<section class="stats dark">
   <div class="container stats-grid">
-    <div class="stat reveal"><strong data-count="100">0</strong><span>% Responsive</span></div>
-    <div class="stat reveal"><strong data-count="7">0</strong><span>Días de entrega promedio</span></div>
-    <div class="stat reveal"><strong data-count="150">0</strong><span>Soles, precio desde</span></div>
-    <div class="stat reveal"><strong data-count="24">0</strong><span>Horas de respuesta máx.</span></div>
+    <div class="stat reveal"><strong><span data-count="100">0</span>%</strong><span>Adaptable a celular</span></div>
+    <div class="stat reveal"><strong><span data-count="5">0</span> días</strong><span>Entrega de web sencilla</span></div>
+    <div class="stat reveal"><strong>S/<span data-count="150">0</span></strong><span>Precio desde</span></div>
+    <div class="stat reveal"><strong><span data-count="24">0</span> h</strong><span>Tiempo de respuesta</span></div>
   </div>
 </section>
 
-<!-- ===== SERVICIOS ===== -->
+<!-- ===== SERVICIOS (BENTO) ===== -->
 <section class="section" id="servicios">
   <div class="container">
-    <div class="sec-head reveal">
-      <span class="tag">Servicios</span>
-      <h2>Soluciones digitales completas para tu empresa</h2>
-      <p>Desde una web sencilla para empezar hasta plataformas y aplicaciones a medida.</p>
+    <div class="head reveal">
+      <p class="eyebrow">Servicios</p>
+      <h2>Todo lo que tu empresa<br>necesita para estar en línea.</h2>
     </div>
-    <div class="cards">
-      <article class="card reveal"><div class="ic">🌐</div><h3>Páginas Web Corporativas</h3><p>Sitios profesionales que transmiten confianza y presentan tu empresa, servicios y equipo.</p></article>
-      <article class="card reveal"><div class="ic">🛒</div><h3>Tiendas Online</h3><p>Catálogo, carrito y pedidos por WhatsApp o pasarela de pago. Vende las 24 horas.</p></article>
-      <article class="card reveal"><div class="ic">📱</div><h3>Aplicaciones Web y Móviles</h3><p>Apps a medida: reservas, inventarios, sistemas de ventas, paneles administrativos.</p></article>
-      <article class="card reveal"><div class="ic">🎯</div><h3>Landing Pages</h3><p>Páginas de una sola sección enfocadas en convertir visitas en clientes y campañas.</p></article>
-      <article class="card reveal"><div class="ic">🔍</div><h3>SEO y Google</h3><p>Optimización para aparecer en Google y registro en Google Maps / Business Profile.</p></article>
-      <article class="card reveal"><div class="ic">🛡️</div><h3>Hosting, Dominio y Soporte</h3><p>Te ayudamos con dominio .com / .pe, correos corporativos, seguridad SSL y mantenimiento.</p></article>
+    <div class="bento">
+      <article class="tile t-wide t-navy reveal">
+        <div class="t-ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 3.8 5.7 3.8 9s-1.3 6.3-3.8 9c-2.5-2.7-3.8-5.7-3.8-9S9.5 5.7 12 3z"/></svg></div>
+        <h3>Páginas web corporativas</h3>
+        <p>Una imagen profesional que transmite confianza. Presenta tu empresa, tus servicios y tu equipo como las grandes marcas.</p>
+        <span class="t-big">Web</span>
+      </article>
+      <article class="tile reveal">
+        <div class="t-ic"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a1.5 1.5 0 0 0 1.5 1.2h8.6a1.5 1.5 0 0 0 1.4-1.1L21 8H6"/><circle cx="9.5" cy="20" r="1.2"/><circle cx="17.5" cy="20" r="1.2"/></svg></div>
+        <h3>Tiendas online</h3>
+        <p>Catálogo, carrito y pedidos por WhatsApp. Vende las 24 horas.</p>
+      </article>
+      <article class="tile t-tall t-blue reveal">
+        <div class="t-ic"><svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10.5 18.5h3"/></svg></div>
+        <h3>Aplicaciones a medida</h3>
+        <p>Inventarios, reservas, sistemas de ventas y paneles administrativos con login y base de datos en la nube.</p>
+        <ul class="t-list"><li>Web y móvil</li><li>Reportes en tiempo real</li><li>Usuarios y permisos</li></ul>
+      </article>
+      <article class="tile reveal">
+        <div class="t-ic"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+        <h3>Landing pages</h3>
+        <p>Una sola página enfocada en convertir visitas en clientes.</p>
+      </article>
+      <article class="tile reveal">
+        <div class="t-ic"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></div>
+        <h3>SEO y Google</h3>
+        <p>Aparece en Google y en Google Maps cuando te buscan.</p>
+      </article>
+      <article class="tile t-wide reveal">
+        <div class="t-ic"><svg viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.6 7.5 9.5 4.3-.9 7.5-4.9 7.5-9.5V6L12 3z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg></div>
+        <h3>Hosting, dominio y soporte</h3>
+        <p>Dominio .com o .pe, correos corporativos, certificado SSL y mantenimiento. Nos ocupamos de todo para que tú te enfoques en vender.</p>
+      </article>
     </div>
   </div>
 </section>
 
 <!-- ===== POR QUÉ ===== -->
-<section class="section alt">
-  <div class="container why">
-    <div class="why-text reveal">
-      <span class="tag">¿Por qué Code Studio?</span>
-      <h2>Calidad de agencia, precio justo para tu negocio</h2>
-      <p>Trabajamos con estándares profesionales: código limpio, diseño moderno y enfoque en resultados. Tu web no solo se ve bien, también trabaja para ti.</p>
-      <ul class="why-list">
-        <li><b>⚡ Ultra rápida</b><span>Carga en segundos y mejora tu posición en Google.</span></li>
-        <li><b>📲 Mobile first</b><span>Más del 80% de tus clientes te verá desde el celular.</span></li>
-        <li><b>🔒 Segura</b><span>Certificado SSL y buenas prácticas de seguridad.</span></li>
-        <li><b>🤝 Acompañamiento</b><span>Te asesoramos antes, durante y después de la entrega.</span></li>
-      </ul>
+<section class="section soft">
+  <div class="container">
+    <div class="head reveal">
+      <p class="eyebrow">¿Por qué Code Studio?</p>
+      <h2>Calidad de agencia.<br><span class="muted">Precio justo.</span></h2>
     </div>
-    <div class="why-visual reveal">
-      <div class="code-box">
-<pre><span class="k">const</span> <span class="v">tuNegocio</span> = {
-  web: <span class="s">"profesional"</span>,
-  diseño: <span class="s">"moderno"</span>,
-  celular: <span class="b">true</span>,
-  whatsapp: <span class="b">true</span>,
-  ventas: <span class="s">"⬆ creciendo"</span>
-};
-<span class="k">CodeStudio</span>.<span class="f">lanzar</span>(<span class="v">tuNegocio</span>); <span class="c">// 🚀</span></pre>
-      </div>
+    <div class="features">
+      <div class="feat reveal"><b>⚡</b><h4>Ultra rápida</h4><p>Carga en segundos y mejora tu posición en Google.</p></div>
+      <div class="feat reveal"><b>📱</b><h4>Pensada para celular</h4><p>La mayoría de tus clientes te verá desde su teléfono.</p></div>
+      <div class="feat reveal"><b>🔒</b><h4>Segura</h4><p>Certificado SSL y buenas prácticas en cada proyecto.</p></div>
+      <div class="feat reveal"><b>🤝</b><h4>Acompañamiento</h4><p>Te asesoramos antes, durante y después de la entrega.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ===== PROCESO ===== -->
-<section class="section" id="proceso">
-  <div class="container">
-    <div class="sec-head reveal">
-      <span class="tag">Proceso</span>
-      <h2>Tu web lista en 4 pasos</h2>
+<!-- ===== PROCESO (STICKY) ===== -->
+<section class="section process" id="proceso">
+  <div class="container process-grid">
+    <div class="process-side">
+      <p class="eyebrow">Proceso</p>
+      <h2>Tu web lista<br>en 4 pasos.</h2>
+      <div class="process-bar"><i id="processBar"></i></div>
     </div>
-    <div class="steps">
-      <div class="step reveal"><span>01</span><h4>Reunión</h4><p>Conversamos sobre tu negocio, objetivos y referencias.</p></div>
-      <div class="step reveal"><span>02</span><h4>Diseño</h4><p>Creamos la propuesta visual con tu logo y colores.</p></div>
-      <div class="step reveal"><span>03</span><h4>Desarrollo</h4><p>Programamos, cargamos tu contenido y probamos todo.</p></div>
-      <div class="step reveal"><span>04</span><h4>Lanzamiento</h4><p>Publicamos tu web y te capacitamos para usarla.</p></div>
-    </div>
+    <ol class="steps" id="steps">
+      <li class="step"><span>01</span><h3>Conversamos</h3><p>Nos cuentas sobre tu negocio, tus objetivos y las webs que te gustan.</p></li>
+      <li class="step"><span>02</span><h3>Diseñamos</h3><p>Creamos la propuesta visual con tu logo, tus colores y tu estilo.</p></li>
+      <li class="step"><span>03</span><h3>Desarrollamos</h3><p>Programamos, cargamos tu contenido y probamos en todos los dispositivos.</p></li>
+      <li class="step"><span>04</span><h3>Lanzamos</h3><p>Publicamos tu web y te enseñamos a usarla. Tu negocio, en línea.</p></li>
+    </ol>
   </div>
 </section>
 
 <!-- ===== PLANES ===== -->
-<section class="section alt" id="planes">
+<section class="section soft" id="planes">
   <div class="container">
-    <div class="sec-head reveal">
-      <span class="tag">Planes y precios</span>
-      <h2>Elige el plan ideal para tu negocio</h2>
-      <p>Precios en soles. Pago en partes: 50% al iniciar y 50% al entregar.</p>
+    <div class="head reveal">
+      <p class="eyebrow">Planes</p>
+      <h2>Elige el plan ideal<br>para tu negocio.</h2>
+      <p class="sub">Precios en soles. Pago en partes: 50% al iniciar y 50% al entregar.</p>
     </div>
     <div class="plans">
       <div class="plan reveal">
-        <h3>Web Sencilla</h3>
-        <p class="plan-sub">Ideal para emprendedores</p>
+        <h3>Web Sencilla</h3><p class="p-sub">Ideal para emprendedores</p>
         <div class="price"><small>desde</small>S/150</div>
-        <ul>
-          <li>Landing page de 1 sección</li>
-          <li>Diseño responsive</li>
-          <li>Botón de WhatsApp</li>
-          <li>Mapa de ubicación</li>
-          <li>Enlaces a redes sociales</li>
-        </ul>
-        <a href="#contacto" data-plan="Web Sencilla" class="btn btn-ghost w100">Lo quiero</a>
+        <ul><li>Landing page de 1 sección</li><li>Diseño adaptable</li><li>Botón de WhatsApp</li><li>Mapa de ubicación</li><li>Enlaces a redes sociales</li></ul>
+        <a data-wa="Web Sencilla" class="btn btn-ghost w100">Lo quiero</a>
       </div>
       <div class="plan featured reveal">
-        <span class="ribbon">Más vendido</span>
-        <h3>Web Negocio</h3>
-        <p class="plan-sub">Para negocios en crecimiento</p>
+        <span class="badge">Más elegido</span>
+        <h3>Web Negocio</h3><p class="p-sub">Para negocios en crecimiento</p>
         <div class="price"><small>desde</small>S/390</div>
-        <ul>
-          <li>Hasta 5 secciones</li>
-          <li>Formulario de contacto</li>
-          <li>Galería de productos/servicios</li>
-          <li>SEO básico en Google</li>
-          <li>Dominio + hosting 1 año*</li>
-        </ul>
-        <a href="#contacto" data-plan="Web Negocio" class="btn w100">Lo quiero</a>
+        <ul><li>Hasta 5 secciones</li><li>Formulario de contacto</li><li>Galería de productos</li><li>SEO básico en Google</li><li>Dominio + hosting 1 año*</li></ul>
+        <a data-wa="Web Negocio" class="btn w100">Lo quiero</a>
       </div>
       <div class="plan reveal">
-        <h3>Web Corporativa</h3>
-        <p class="plan-sub">Empresas y tiendas online</p>
+        <h3>Web Corporativa</h3><p class="p-sub">Empresas y tiendas online</p>
         <div class="price"><small>desde</small>S/790</div>
-        <ul>
-          <li>Secciones ilimitadas</li>
-          <li>Catálogo / tienda online</li>
-          <li>Panel autoadministrable</li>
-          <li>Correos corporativos</li>
-          <li>Soporte prioritario 3 meses</li>
-        </ul>
-        <a href="#contacto" data-plan="Web Corporativa" class="btn btn-ghost w100">Lo quiero</a>
+        <ul><li>Secciones ilimitadas</li><li>Catálogo / tienda online</li><li>Panel autoadministrable</li><li>Correos corporativos</li><li>Soporte prioritario 3 meses</li></ul>
+        <a data-wa="Web Corporativa" class="btn btn-ghost w100">Lo quiero</a>
       </div>
       <div class="plan reveal">
-        <h3>Aplicaciones</h3>
-        <p class="plan-sub">Sistemas a medida</p>
+        <h3>Aplicaciones</h3><p class="p-sub">Sistemas a medida</p>
         <div class="price"><small>desde</small>S/1,500</div>
-        <ul>
-          <li>App web o móvil</li>
-          <li>Login de usuarios</li>
-          <li>Base de datos en la nube</li>
-          <li>Reportes y panel admin</li>
-          <li>Inventarios, reservas, ventas</li>
-        </ul>
-        <a href="#contacto" data-plan="Aplicación a medida" class="btn btn-ghost w100">Cotizar</a>
+        <ul><li>App web o móvil</li><li>Login de usuarios</li><li>Base de datos en la nube</li><li>Reportes y panel admin</li><li>Inventarios, reservas, ventas</li></ul>
+        <a data-wa="Aplicación a medida" class="btn btn-ghost w100">Cotizar</a>
       </div>
     </div>
     <p class="note">*Consulta condiciones. Los precios pueden variar según los requerimientos del proyecto.</p>
   </div>
 </section>
 
-<!-- ===== PORTAFOLIO ===== -->
-<section class="section" id="portafolio">
+<!-- ===== PROYECTOS (GALERÍA HORIZONTAL) ===== -->
+<section class="section" id="proyectos">
   <div class="container">
-    <div class="sec-head reveal">
-      <span class="tag">Portafolio</span>
-      <h2>Tipos de proyectos que desarrollamos</h2>
+    <div class="head head-row reveal">
+      <div>
+        <p class="eyebrow">Proyectos</p>
+        <h2>Hecho para cada<br>tipo de negocio.</h2>
+      </div>
+      <div class="g-arrows"><button id="gPrev" aria-label="Anterior">‹</button><button id="gNext" aria-label="Siguiente">›</button></div>
     </div>
-    <div class="port">
-      <div class="port-item reveal" style="--c1:#0f3a68;--c2:#2f7fd1"><div class="pi-mock"><i></i><i></i><i></i></div><h4>Restaurantes y cafés</h4><p>Carta digital y pedidos</p></div>
-      <div class="port-item reveal" style="--c1:#13385e;--c2:#3aa0c9"><div class="pi-mock"><i></i><i></i><i></i></div><h4>Tiendas e importadoras</h4><p>Catálogo y ventas online</p></div>
-      <div class="port-item reveal" style="--c1:#1b2f55;--c2:#5b8def"><div class="pi-mock"><i></i><i></i><i></i></div><h4>Sistemas de inventario</h4><p>Control de stock y ventas</p></div>
-      <div class="port-item reveal" style="--c1:#0d4d5c;--c2:#2bb3a3"><div class="pi-mock"><i></i><i></i><i></i></div><h4>Turismo y campestres</h4><p>Reservas y galería</p></div>
-      <div class="port-item reveal" style="--c1:#2a2f6b;--c2:#7a6ff0"><div class="pi-mock"><i></i><i></i><i></i></div><h4>Consultorios y estudios</h4><p>Citas y servicios</p></div>
-      <div class="port-item reveal" style="--c1:#123b5c;--c2:#5aa6e6"><div class="pi-mock"><i></i><i></i><i></i></div><h4>Empresas corporativas</h4><p>Imagen y confianza</p></div>
-    </div>
+  </div>
+  <div class="gallery" id="gallery">
+    <div class="g-card" style="--g1:#0f2f5a;--g2:#2f7fd1"><span class="g-emoji">🍽️</span><h3>Restaurantes y cafés</h3><p>Carta digital y pedidos por WhatsApp.</p></div>
+    <div class="g-card" style="--g1:#0b3b4f;--g2:#25a0b8"><span class="g-emoji">📦</span><h3>Tiendas e importadoras</h3><p>Catálogo y ventas online 24/7.</p></div>
+    <div class="g-card" style="--g1:#1d1d1f;--g2:#4a4a52"><span class="g-emoji">🧾</span><h3>Sistemas de inventario</h3><p>Control de stock, ventas y reportes.</p></div>
+    <div class="g-card" style="--g1:#0d4d3c;--g2:#2bb37a"><span class="g-emoji">🌴</span><h3>Turismo y campestres</h3><p>Reservas y galerías que enamoran.</p></div>
+    <div class="g-card" style="--g1:#2a2266;--g2:#7a6ff0"><span class="g-emoji">🩺</span><h3>Consultorios y estudios</h3><p>Citas y servicios en un clic.</p></div>
+    <div class="g-card" style="--g1:#5a2a0f;--g2:#e08a2e"><span class="g-emoji">🏢</span><h3>Empresas corporativas</h3><p>Imagen sólida y confianza.</p></div>
   </div>
 </section>
 
-<!-- ===== PROMO BANNER ===== -->
-<section class="promo">
-  <div class="container promo-inner reveal">
-    <div>
-      <span class="pill light">🔥 Promoción por lanzamiento</span>
-      <h2>Tu página web profesional desde <span>S/150</span></h2>
-      <p>Cupos limitados este mes. Empieza a recibir clientes por internet.</p>
-    </div>
-    <a href="#contacto" class="btn btn-white">Reservar mi cupo</a>
+<!-- ===== PROMO ZOOM ===== -->
+<section class="promo dark" id="promo">
+  <div class="promo-sticky">
+    <p class="eyebrow light">Promoción por lanzamiento</p>
+    <h2 class="promo-title" id="promoTitle">Desde <span>S/150.</span></h2>
+    <p class="promo-sub">Tu página web profesional. Cupos limitados este mes.</p>
+    <a data-wa class="btn btn-white">Reservar mi cupo</a>
   </div>
 </section>
 
 <!-- ===== FAQ ===== -->
 <section class="section" id="faq">
   <div class="container narrow">
-    <div class="sec-head reveal">
-      <span class="tag">Preguntas frecuentes</span>
-      <h2>Resolvemos tus dudas</h2>
+    <div class="head reveal">
+      <p class="eyebrow">Preguntas frecuentes</p>
+      <h2>Resolvemos tus dudas.</h2>
     </div>
     <div class="faq">
-      <details class="reveal" open><summary>¿Cuánto tiempo demora mi página web?</summary><p>Una web sencilla se entrega entre 3 y 5 días hábiles. Proyectos corporativos y aplicaciones dependen del alcance, y te damos un cronograma desde el inicio.</p></details>
-      <details class="reveal"><summary>¿El dominio y hosting están incluidos?</summary><p>Depende del plan. En el plan Negocio en adelante te ayudamos con dominio y hosting. En el plan Sencillo podemos cotizarlos aparte.</p></details>
-      <details class="reveal"><summary>¿Qué necesito para empezar?</summary><p>Tu logo, fotos de tus productos o servicios, textos básicos y tus datos de contacto. Si no tienes algo, te ayudamos.</p></details>
-      <details class="reveal"><summary>¿Puedo hacer cambios después?</summary><p>Sí. Cada plan incluye rondas de ajustes y ofrecemos mantenimiento mensual opcional.</p></details>
-      <details class="reveal"><summary>¿Cómo se realiza el pago?</summary><p>50% al iniciar y 50% al entregar. Aceptamos transferencia, Yape y Plin.</p></details>
+      <details class="reveal"><summary>¿Cuánto tiempo demora mi página web?</summary><div><p>Una web sencilla se entrega entre 3 y 5 días hábiles. Los proyectos corporativos y las aplicaciones dependen del alcance, y te damos un cronograma desde el inicio.</p></div></details>
+      <details class="reveal"><summary>¿El dominio y el hosting están incluidos?</summary><div><p>Depende del plan. Desde el plan Negocio te ayudamos con dominio y hosting. En el plan Sencillo podemos cotizarlos aparte.</p></div></details>
+      <details class="reveal"><summary>¿Qué necesito para empezar?</summary><div><p>Tu logo, fotos de tus productos o servicios, textos básicos y tus datos de contacto. Si te falta algo, te ayudamos.</p></div></details>
+      <details class="reveal"><summary>¿Puedo hacer cambios después?</summary><div><p>Sí. Cada plan incluye rondas de ajustes y ofrecemos mantenimiento mensual opcional.</p></div></details>
+      <details class="reveal"><summary>¿Cómo se realiza el pago?</summary><div><p>50% al iniciar y 50% al entregar. Aceptamos transferencia, Yape y Plin.</p></div></details>
     </div>
   </div>
 </section>
 
 <!-- ===== CONTACTO ===== -->
-<section class="section alt" id="contacto">
+<section class="section soft" id="contacto">
   <div class="container contact">
     <div class="contact-info reveal">
-      <span class="tag">Contacto</span>
-      <h2>Cuéntanos tu proyecto</h2>
-      <p>Te respondemos en menos de 24 horas con una propuesta sin compromiso.</p>
-      <ul>
-        <li><b>📞 WhatsApp:</b> +51 9XX XXX XXX</li>
-        <li><b>✉️ Correo:</b> contacto@codestudio.pe</li>
-        <li><b>📍 Ubicación:</b> La Libertad, Perú — atención a todo el país</li>
-        <li><b>🕘 Horario:</b> Lun a Sáb, 9:00 a.m. – 8:00 p.m.</li>
+      <p class="eyebrow">Contacto</p>
+      <h2>Hablemos de<br>tu proyecto.</h2>
+      <p class="sub">Te respondemos en menos de 24 horas con una propuesta sin compromiso.</p>
+      <a data-wa class="wa-card">
+        <span class="wa-ic"><svg viewBox="0 0 32 32"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 5c2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.3z"/></svg></span>
+        <span><small>WhatsApp</small><b>+51 962 029 292</b></span>
+        <em>›</em>
+      </a>
+      <ul class="c-list">
+        <li><b>Ubicación</b><span>La Libertad, Perú — atención a todo el país</span></li>
+        <li><b>Horario</b><span>Lunes a sábado, 9:00 a.m. – 8:00 p.m.</span></li>
       </ul>
     </div>
     <form class="form reveal" id="form">
-      <label>Nombre<input name="nombre" required placeholder="Tu nombre"></label>
-      <label>Empresa / Negocio<input name="empresa" placeholder="Nombre de tu negocio"></label>
+      <label>Tu nombre<input name="nombre" required placeholder="¿Cómo te llamas?"></label>
+      <label>Tu negocio<input name="empresa" placeholder="Nombre de tu negocio"></label>
       <label>Servicio de interés
         <select name="plan" id="planSel">
           <option>Web Sencilla</option><option>Web Negocio</option><option>Web Corporativa</option><option>Aplicación a medida</option><option>Otro</option>
         </select>
       </label>
-      <label>Mensaje<textarea name="mensaje" rows="4" placeholder="Cuéntanos qué necesitas"></textarea></label>
+      <label>Mensaje<textarea name="mensaje" rows="3" placeholder="Cuéntanos qué necesitas (opcional)"></textarea></label>
       <button class="btn w100" type="submit">Enviar por WhatsApp</button>
     </form>
   </div>
 </section>
 
+</main>
+
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
   <div class="container foot-grid">
-    <div>
-      <img src="img/logo-full.png" alt="Code Studio" class="foot-logo">
+    <div class="foot-brand">
+      <a href="#inicio" class="brand"><img src="img/logo-icon.png" alt="">Code Studio</a>
       <p>Web &amp; App Creation · Global Digital Solutions</p>
     </div>
     <div><h5>Servicios</h5><a href="#servicios">Páginas web</a><a href="#servicios">Tiendas online</a><a href="#servicios">Aplicaciones</a></div>
     <div><h5>Empresa</h5><a href="#proceso">Proceso</a><a href="#planes">Planes</a><a href="#faq">FAQ</a></div>
-    <div><h5>Contacto</h5><a href="#contacto">Cotizar proyecto</a><a href="#contacto">contacto@codestudio.pe</a></div>
+    <div><h5>Contacto</h5><a data-wa>Cotizar proyecto</a><a data-wa>WhatsApp +51 962 029 292</a></div>
   </div>
-  <div class="copy">© <span id="year"></span> Code Studio. Todos los derechos reservados.</div>
+  <div class="container copy">© <span id="year"></span> Code Studio. Todos los derechos reservados.</div>
 </footer>
 
-<a class="wa-float" id="waFloat" href="#" aria-label="WhatsApp">
+<a class="wa-float" data-wa aria-label="Escríbenos por WhatsApp">
   <svg viewBox="0 0 32 32" width="30" height="30"><path fill="#fff" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 5c2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5s.3-1.4.2-1.5-.3-.2-.6-.3z"/></svg>
 </a>
 

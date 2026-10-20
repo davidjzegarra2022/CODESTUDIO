@@ -9,7 +9,7 @@ Página web oficial de **Code Studio**: creación de páginas web y aplicaciones
 - `img/` — logo
 
 ## Configuración
-Cambia tu número de WhatsApp en `js/main.js` (línea 2) y en la sección Contacto de `index.html`.
+Todos los enlaces de contacto abren WhatsApp (+51 962 029 292). El número y el mensaje se configuran en `js/main.js` (líneas 2 y 3).
 
 ## Publicar
 Importa este repositorio en Vercel o activa GitHub Pages (rama `main`, carpeta raíz).
